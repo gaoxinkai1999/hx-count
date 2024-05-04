@@ -1,0 +1,14 @@
+server:
+  port: 8087
+#  servlet:
+#    context-path: /api
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://101.42.104.145:3306/hx
+    #    url: jdbc:mysql://43.132.151.71:3306/mine
+    #    url: jdbc:mysql://localhost:3306/mine
+    username: root
+    password: miaoshidahu
+    type: com.alibaba.druid.pool.DruidDataSource
